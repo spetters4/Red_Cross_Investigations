@@ -41,7 +41,7 @@ aes_pres - automatic extinguishing system, "1: Wet-pipe sprinkler system, 2: Dry
   suppression systems that operate on the same principle, 7: Carbon dioxide system,
   0: Special hazard system, other, U: Undetermined."
 aes_type - 
-aes_oper
+aes_oper -
 no_spr_op - number of sprinkler heads operating
 aes_fail - reasure for system failure, "1 System shut off. 2 Not enough agent discharged to control the fire.
   3 Agent discharged, but did not reach the fire. 4 Inappropriate system for the type of fire.
