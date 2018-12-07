@@ -43,7 +43,9 @@ tot_loss - total loss, property loss + content loss
 
 detector - presence of a detector: 1 if yes, N if no, U if unknown?
 
-det_type - detector type
+det_type - detector type, "1: Smoke, 2: Heat, 3: Combination smoke and heat, 4: Sprinkler, water flow detection,
+  5: More than one type present, 0: Other, U: Undetermined."
+
 
 det_power - detector power supply," 1: Battery only, 2: Hardwire only, 3: Plug-in,
   4: Hardwire with battery, 5: Plug-in with battery, 6: Mechanical, 7: Multiple detectors & power supplies,
