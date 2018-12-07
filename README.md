@@ -54,8 +54,9 @@ det_power - detector power supply," 1: Battery only, 2: Hardwire only, 3: Plug-i
 det_operat - detector operation, "1: Operated/effective, 2: Operated/Not effective, 3: Fire too small to activate,
   4: Failed to operate, 0: Other, U: Undetermined."
   
-det_effect - detector effectiveness
-
+det_effect - detector effectiveness, "1: Alerted occupants, occupants responded,
+  2: Alerted occupants, occupants failed to respond, 3:There were no occupants, 4:Failed to alert occupants"
+  
 det_fail - detector failure, "1: Power failure, shutoff, or disconnect, 
   2:Improper installation or placement, 3: Defective,
   4: Lack of maintenance, includes not cleaning, 5: Battery missing or disconnected,
